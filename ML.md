@@ -31,3 +31,13 @@ Once we've trained our model with labeled examples, we use that model to predict
 **Models:** A model defines the relationship between features and label. For example, a spam detection model might associate certain features strongly with "spam". Let's highlight two phases of a model's life: <br>
  * **Training** means *creating* or *learning* the model. That is, you show the model labeled examples and enable the model to gradually learn the relationships between features and label.<br>
  * **Inference** means applying the trained model to unlabeled examples. That is, you use the trained model to make useful predictions (y'). For example, during inference, you can predict medianHouseValue for new unlabeled examples. <br>
+
+
+**Regression vs. classification** <br>
+A **regression** model predicts continuous values. For example, regression models make predictions that answer questions like the following:<br>
+* What is the value of a house in California? <br>
+* What is the probability that a user will click on this ad? <br>
+
+A **classification** model predicts discrete values. For example, classification models make predictions that answer questions like the following: <br>
+* Is a given email message spam or not spam?
+* Is this an image of a dog, a cat, or a hamster?
