@@ -55,9 +55,18 @@ Day 2
 ![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Linear%20Regression%20Example.PNG)
 
 True, the line doesn't pass through every dot, but the line does clearly show the relationship between chirps and temperature. Using the equation for a line, you could write down this relationship as follows:<br>
-<pre>                                              y = mx + b                     </pre> <br>
+<pre>                                              y = mx + b                     </pre>
 **where:** <br>
  * ***y*** is the temperature in Celsius—the value we're trying to predict.
  * ***m*** is the slope of the line.
  * ***x*** is the number of chirps per minute—the value of our input feature.
  * ***b*** is the y-intercept.
+
+By convention in machine learning, you'll write the equation for a model slightly differently:<br>
+<pre>                                              y' = b + w_1x_1                     </pre>
+
+**where:**<br>
+ * ***y'*** is the predicted label (a desired output).
+ * ***b*** is the bias (the y-intercept), sometimes referred to as .
+ * ***w_1*** is the weight of feature 1. Weight is the same concept as the "slope"  in the traditional equation of a line.
+ * ***x_1***is a feature (a known input).
