@@ -1,5 +1,9 @@
 Google crash course for ML:
 ==============================================
+
+Day 1
+----------------------------------------------------------
+
 **What is (supervised) machine learning?** ML systems learn how to combine input to produce useful predictions on never-before-seen data.
 
 **Labels:** A label is the thing we're predicting—the y variable in simple linear regression. The label could be the future price of wheat, the kind of animal shown in a picture, the meaning of an audio clip, or just about anything.
@@ -41,3 +45,8 @@ A **regression** model predicts continuous values. For example, regression model
 A **classification** model predicts discrete values. For example, classification models make predictions that answer questions like the following: <br>
 * Is a given email message spam or not spam?
 * Is this an image of a dog, a cat, or a hamster?
+
+Day 2
+----------------------------------------------
+
+**Linear regression** is a method for finding the straight line or hyperplane that best fits a set of points. This module explores linear regression intuitively before laying the groundwork for a machine learning approach to linear regression.
