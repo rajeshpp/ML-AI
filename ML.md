@@ -49,7 +49,7 @@ A **classification** model predicts discrete values. For example, classification
 Day 2
 ----------------------------------------------
 
-**Linear regression** is a method for finding the straight line or hyperplane that best fits a set of points. This module explores linear regression intuitively before laying the groundwork for a machine learning approach to linear regression.
+**[Linear regression](https://developers.google.com/machine-learning/glossary#linear_regression)** is a method for finding the straight line or hyperplane that best fits a set of points. This module explores linear regression intuitively before laying the groundwork for a machine learning approach to linear regression.
 
 **Figure 1. Chirps per Minute vs. Temperature in Celsius.**
 ![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Linear%20Regression%20Example.PNG)
@@ -76,4 +76,4 @@ To **[infer](https://developers.google.com/machine-learning/glossary#inference)*
 
 Although this model uses only one feature, a more sophisticated model might rely on multiple features, each having a separate weight (w1, w2, etc.). For example, a model that relies on three features might look as follows: <br>
 
-<pre>                                 y′=b+w1x1+w2x2+w3x3         </pre>
+<pre>                                              y′=b+w1x1+w2x2+w3x3                     </pre>
