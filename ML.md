@@ -54,5 +54,6 @@ Day 2
 **Figure 1. Chirps per Minute vs. Temperature in Celsius.**
 ![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Linear%20Regression%20Example.PNG)
 
-True, the line doesn't pass through every dot, but the line does clearly show the relationship between chirps and temperature. Using the equation for a line, you could write down this relationship as follows:<br>
-                                                y = mx + b
+True, the line doesn't pass through every dot, but the line does clearly show the relationship between chirps and temperature. Using the equation for a line, you could write down this relationship as follows:<pre>
+                                              **y = mx + b**
+</pre>
