@@ -63,10 +63,17 @@ True, the line doesn't pass through every dot, but the line does clearly show th
  * ***b*** is the y-intercept.
 
 By convention in machine learning, you'll write the equation for a model slightly differently:<br>
-<pre>                                              y' = b + w_1x_1                     </pre>
+<pre>                                              y' = b + w1x1                     </pre>
 
 **where:**
  * ***y'*** is the predicted [label](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#labels) (a desired output).
- * ***b*** is the bias (the y-intercept), sometimes referred to as .
- * ***w_1*** is the weight of feature 1. Weight is the same concept as the "slope"  in the traditional equation of a line.
- * ***x_1*** is a [feature](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#features) (a known input).
+ * ***b*** is the [bias](https://developers.google.com/machine-learning/glossary#bias) (the y-intercept), sometimes referred to as .
+ * ***w1*** is the [weight](https://developers.google.com/machine-learning/glossary#weight) of feature 1. Weight is the same concept as the "slope"  in the traditional equation of a line.
+ * ***x1*** is a [feature](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#features) (a known input).
+
+
+To **[infer](https://developers.google.com/machine-learning/glossary#inference)** (predict) the temperature y′ for a new chirps-per-minute value x1, just substitute the x1 value into this model. <br>
+
+Although this model uses only one feature, a more sophisticated model might rely on multiple features, each having a separate weight (w1, w2, etc.). For example, a model that relies on three features might look as follows: <br>
+
+<pre>                                 y′=b+w1x1+w2x2+w3x3         </pre>
