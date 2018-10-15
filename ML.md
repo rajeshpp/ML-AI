@@ -66,7 +66,7 @@ By convention in machine learning, you'll write the equation for a model slightl
 <pre>                                              y' = b + w_1x_1                     </pre>
 
 **where:**
- * ***y'*** is the predicted label (a desired output).
+ * ***y'*** is the predicted [label](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#labels) (a desired output).
  * ***b*** is the bias (the y-intercept), sometimes referred to as .
  * ***w_1*** is the weight of feature 1. Weight is the same concept as the "slope"  in the traditional equation of a line.
- * ***x_1*** is a feature (a known input).
+ * ***x_1*** is a [feature](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#features) (a known input).
