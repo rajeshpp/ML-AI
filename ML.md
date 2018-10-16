@@ -77,3 +77,13 @@ To **[infer](https://developers.google.com/machine-learning/glossary#inference)*
 Although this model uses only one feature, a more sophisticated model might rely on multiple features, each having a separate weight (w1, w2, etc.). For example, a model that relies on three features might look as follows: <br>
 
 <pre>                                              y′=b+w1x1+w2x2+w3x3                     </pre>
+
+Day 3: Training and Loss
+-----------------------------------------------------
+Training a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called empirical risk minimization. <br>
+
+Loss is the penalty for a bad prediction. That is, loss is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples. <br>
+* The red arrow represents loss.
+* The blue line represents predictions.
+![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Linear%20Regression%20Example.PNG)
+**High loss in the left model; low loss in the right model.**
