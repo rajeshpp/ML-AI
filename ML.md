@@ -80,9 +80,9 @@ Although this model uses only one feature, a more sophisticated model might rely
 
 Day 3: Training and Loss
 -----------------------------------------------------
-Training a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called empirical risk minimization. <br>
+[Training](https://developers.google.com/machine-learning/glossary#training) a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called [empirical risk minimization](https://developers.google.com/machine-learning/glossary#ERM). <br>
 
-Loss is the penalty for a bad prediction. That is, loss is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples. <br>
+Loss is the penalty for a bad prediction. That is, [loss](https://developers.google.com/machine-learning/glossary#loss) is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples. <br>
 * The red arrow represents loss.
 * The blue line represents predictions.
 ![LossSideBySide](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/LossSideBySide.png)
