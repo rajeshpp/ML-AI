@@ -99,7 +99,7 @@ The **[linear regression](https://developers.google.com/machine-learning/glossar
 </pre>
 
 [Mean square error (MSE)](https://developers.google.com/machine-learning/glossary#MSE) is the average squared loss per example over the whole dataset. To calculate MSE, sum up all the squared losses for individual examples and then divide by the number of examples: <br>
-![MeanSquareError](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/MeanSquareError.png)
+![MeanSquareError](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/MeanSquareError.PNG)
 
 where:
 * (x,y) is an example in which
