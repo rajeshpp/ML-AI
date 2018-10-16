@@ -85,5 +85,5 @@ Training a model simply means learning (determining) good values for all the wei
 Loss is the penalty for a bad prediction. That is, loss is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples. <br>
 * The red arrow represents loss.
 * The blue line represents predictions.
-![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Linear%20Regression%20Example.PNG)
+![LossSideBySide](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/LossSideBySide.png)
 **High loss in the left model; low loss in the right model.**
