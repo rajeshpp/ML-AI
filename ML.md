@@ -107,4 +107,5 @@ where:
 * prediction(x) is a function of the weights and bias in combination with the set of features x.
 * D is a data set containing many labeled examples, which are (x,y) pairs.
 * N is the number of examples in D. <br>
+
 Although MSE is commonly-used in machine learning, it is neither the only practical loss function nor the best loss function for all circumstances.
