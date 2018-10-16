@@ -91,9 +91,10 @@ Loss is the penalty for a bad prediction. That is, [loss](https://developers.goo
 We can create a mathematical function—a loss function—that would aggregate the individual losses in a meaningful fashion.<br>
 
 **[Squared loss](https://developers.google.com/machine-learning/glossary#squared_loss): a popular loss function** <br>
-The **[linear regression](https://developers.google.com/machine-learning/glossary#linear_regression)** models we'll examine here use a loss function called squared loss (also known as L2 loss). The squared loss for a single example is as follows:
+The **[linear regression](https://developers.google.com/machine-learning/glossary#linear_regression)** models we'll examine here use a loss function called [squared loss](https://developers.google.com/machine-learning/glossary#squared_loss) (also known as L2 loss). The squared loss for a single example is as follows:
 <pre>
   = the square of the difference between the label and the prediction
   = (observation - prediction(x))2
   = (y - y')2
 </pre>
+
