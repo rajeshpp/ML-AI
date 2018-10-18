@@ -6,16 +6,16 @@ Day 1
 
 **What is (supervised) machine learning?** ML systems learn how to combine input to produce useful predictions on never-before-seen data.
 
-**Labels:** A label is the thing we're predicting—the y variable in simple linear regression. The label could be the future price of wheat, the kind of animal shown in a picture, the meaning of an audio clip, or just about anything.
+**Labels:** A [label](https://developers.google.com/machine-learning/glossary#label) is the thing we're predicting—the y variable in simple linear regression. The label could be the future price of wheat, the kind of animal shown in a picture, the meaning of an audio clip, or just about anything.
 
-**Features:** A feature is an input variable—the x variable in simple linear regression. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features, specified as: x1, x2,....,xn. <br>
+**Features:** A [feature](https://developers.google.com/machine-learning/glossary#feature) is an input variable—the x variable in simple linear regression. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features, specified as: x1, x2,....,xn. <br>
   &nbsp;&nbsp;&nbsp;In the spam detector example, the features could include the following:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. words in the email text<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. sender's address<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. time of day the email was sent<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. email contains the phrase "one weird trick."<br>
 
-**Examples:** An **example** is a particular instance of data, x. (We put x in boldface to indicate that it is a vector.) We break examples into two categories:<br>
+**Examples:** An **[example](https://developers.google.com/machine-learning/glossary#example)** is a particular instance of data, x. (We put x in boldface to indicate that it is a vector.) We break examples into two categories:<br>
 &nbsp;&nbsp;&nbsp;1. labeled examples<br>
 &nbsp;&nbsp;&nbsp;2. unlabeled examples<br>
 &nbsp; A **labeled example** includes both feature(s) and the label. That is:  *labeled examples: {features, label}: (x, y)* <br>
@@ -32,17 +32,17 @@ Here are 3 unlabeled examples from the same housing dataset, which exclude *medi
 
 Once we've trained our model with labeled examples, we use that model to predict the label on unlabeled examples. In the spam detector, unlabeled examples are new emails that humans haven't yet labeled.
 
-**Models:** A model defines the relationship between features and label. For example, a spam detection model might associate certain features strongly with "spam". Let's highlight two phases of a model's life: <br>
- * **Training** means *creating* or *learning* the model. That is, you show the model labeled examples and enable the model to gradually learn the relationships between features and label.<br>
- * **Inference** means applying the trained model to unlabeled examples. That is, you use the trained model to make useful predictions (y'). For example, during inference, you can predict medianHouseValue for new unlabeled examples. <br>
+**Models:** A [model](https://developers.google.com/machine-learning/glossary#model) defines the relationship between features and label. For example, a spam detection model might associate certain features strongly with "spam". Let's highlight two phases of a model's life: <br>
+ * **[Training](https://developers.google.com/machine-learning/glossary#training)** means *creating* or *learning* the model. That is, you show the model labeled examples and enable the model to gradually learn the relationships between features and label.<br>
+ * **[Inference](https://developers.google.com/machine-learning/glossary#inference)** means applying the trained model to unlabeled examples. That is, you use the trained model to make useful predictions (y'). For example, during inference, you can predict medianHouseValue for new unlabeled examples. <br>
 
 
 **Regression vs. classification** <br>
-A **regression** model predicts continuous values. For example, regression models make predictions that answer questions like the following:<br>
+A **[regression model](https://developers.google.com/machine-learning/glossary#regression_model)** predicts continuous values. For example, regression models make predictions that answer questions like the following:<br>
 * What is the value of a house in California? <br>
 * What is the probability that a user will click on this ad? <br>
 
-A **classification** model predicts discrete values. For example, classification models make predictions that answer questions like the following: <br>
+A **classification** model predicts discrete values. For example, [classification models](https://developers.google.com/machine-learning/glossary#classification_model) make predictions that answer questions like the following: <br>
 * Is a given email message spam or not spam?
 * Is this an image of a dog, a cat, or a hamster?
 
