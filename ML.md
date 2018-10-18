@@ -1,7 +1,7 @@
 Google crash course for ML:
 ==============================================
 
-Day 1
+Day 1: Supervised Machine learning
 ----------------------------------------------------------
 
 **What is [(supervised) machine learning](https://developers.google.com/machine-learning/glossary/#supervised_machine_learning)?** ML systems learn how to combine input to produce useful predictions on never-before-seen data.
@@ -46,7 +46,7 @@ A **classification** model predicts discrete values. For example, [classificatio
 * Is a given email message spam or not spam?
 * Is this an image of a dog, a cat, or a hamster?
 
-Day 2
+Day 2: Linear regression
 ----------------------------------------------
 
 **[Linear regression](https://developers.google.com/machine-learning/glossary#linear_regression)** is a method for finding the straight line or hyperplane that best fits a set of points. This module explores linear regression intuitively before laying the groundwork for a machine learning approach to linear regression.
