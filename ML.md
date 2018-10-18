@@ -18,14 +18,14 @@ Day 1: Supervised Machine learning
 **Examples:** An **[example](https://developers.google.com/machine-learning/glossary#example)** is a particular instance of data, x. (We put x in boldface to indicate that it is a vector.) We break examples into two categories:<br>
 &nbsp;&nbsp;&nbsp;1. labeled examples<br>
 &nbsp;&nbsp;&nbsp;2. unlabeled examples<br>
-&nbsp; A **labeled example** includes both feature(s) and the label. That is:  *labeled examples: <pre>{features, label}: (x, y)* </pre><br>
+&nbsp; A **labeled example** includes both feature(s) and the label. That is:  *labeled examples: <pre>{features, label}: (x, y)* </pre>
 
 Use labeled examples to train the model. In our spam detector example, the labeled examples would be individual emails that users have explicitly marked as "spam" or "not spam." <br>
 
 For example, the following table shows 5 labeled examples from a data set containing information about housing prices in California:<br>
 ![Labled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Labled%20Example.PNG)
 
-An **unlabeled example** contains features but not the label. That is: *unlabeled examples: <pre>{features, ?}: (x, ?)* </pre><br>
+An **unlabeled example** contains features but not the label. That is: *unlabeled examples: <pre>{features, ?}: (x, ?)* </pre>
 
 Here are 3 unlabeled examples from the same housing dataset, which exclude *medianHouseValue*: <br>
 ![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Unlabled%20Example.PNG)
