@@ -108,4 +108,4 @@ where:
 * D is a data set containing many labeled examples, which are (x,y) pairs.
 * N is the number of examples in D. <br>
 
-Although MSE is commonly-used in machine learning, it is neither the only practical loss function nor the best loss function for all circumstances.
+Although [MSE](https://developers.google.com/machine-learning/glossary#MSE) is commonly-used in machine learning, it is neither the only practical loss function nor the best loss function for all circumstances.
