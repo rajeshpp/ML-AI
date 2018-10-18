@@ -4,7 +4,7 @@ Google crash course for ML:
 Day 1
 ----------------------------------------------------------
 
-**What is (supervised) machine learning?** ML systems learn how to combine input to produce useful predictions on never-before-seen data.
+**What is [(supervised) machine learning](https://developers.google.com/machine-learning/glossary/#supervised_machine_learning)?** ML systems learn how to combine input to produce useful predictions on never-before-seen data.
 
 **Labels:** A [label](https://developers.google.com/machine-learning/glossary#label) is the thing we're predicting—the y variable in simple linear regression. The label could be the future price of wheat, the kind of animal shown in a picture, the meaning of an audio clip, or just about anything.
 
