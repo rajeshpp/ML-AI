@@ -1,6 +1,7 @@
-# Algorithms {Taken From: https://github.com/keon/algorithms}
+# Algorithms 
+{Taken From: https://github.com/keon/algorithms}
 
-[Algorithms](https://github.com/rajeshpp/ML-AI/blob/master/DS/Algorithms/README.md)
+Click [Algorithms](https://github.com/rajeshpp/ML-AI/blob/master/DS/Algorithms/README.md) to go there.
 
 # ML-AI
 
