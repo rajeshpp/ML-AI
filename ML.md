@@ -42,7 +42,7 @@ A **[regression model](https://developers.google.com/machine-learning/glossary#r
 * What is the value of a house in California? <br>
 * What is the probability that a user will click on this ad? <br>
 
-A **classification** model predicts discrete values. For example, [classification models](https://developers.google.com/machine-learning/glossary#classification_model) make predictions that answer questions like the following: <br>
+A **[classification model](https://developers.google.com/machine-learning/glossary#classification_model)** predicts discrete values. For example, classification models make predictions that answer questions like the following: <br>
 * Is a given email message spam or not spam?
 * Is this an image of a dog, a cat, or a hamster?
 
