@@ -1,7 +1,7 @@
 Google crash course for ML:
 ==============================================
 
-Day 1: Supervised Machine learning
+[Day 1](https://developers.google.com/machine-learning/crash-course/framing/video-lecture): Supervised Machine learning
 ----------------------------------------------------------
 
 **What is [(supervised) machine learning](https://developers.google.com/machine-learning/glossary/#supervised_machine_learning)?** ML systems learn how to combine input to produce useful predictions on never-before-seen data.
@@ -46,7 +46,7 @@ A **classification** model predicts discrete values. For example, [classificatio
 * Is a given email message spam or not spam?
 * Is this an image of a dog, a cat, or a hamster?
 
-Day 2: Linear regression
+[Day 2](https://developers.google.com/machine-learning/crash-course/descending-into-ml/linear-regression): Linear regression
 ----------------------------------------------
 
 **[Linear regression](https://developers.google.com/machine-learning/glossary#linear_regression)** is a method for finding the straight line or hyperplane that best fits a set of points. This module explores linear regression intuitively before laying the groundwork for a machine learning approach to linear regression.
@@ -78,7 +78,7 @@ Although this model uses only one feature, a more sophisticated model might rely
 
 <pre>                                              y′=b+w1x1+w2x2+w3x3                     </pre>
 
-Day 3: Training and Loss
+[Day 3](https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss): Training and Loss
 -----------------------------------------------------
 [Training](https://developers.google.com/machine-learning/glossary#training) a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called [empirical risk minimization](https://developers.google.com/machine-learning/glossary#ERM). <br>
 
