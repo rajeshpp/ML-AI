@@ -67,7 +67,7 @@ By convention in machine learning, you'll write the equation for a model slightl
 
 **where:**
  * ***y'*** is the predicted [label](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#labels) (a desired output).
- * ***b*** is the [bias](https://developers.google.com/machine-learning/glossary#bias) (the y-intercept), sometimes referred to as .
+ * ***b*** is the [bias](https://developers.google.com/machine-learning/glossary#bias) (the y-intercept), sometimes referred to as w0.
  * ***w1*** is the [weight](https://developers.google.com/machine-learning/glossary#weight) of feature 1. Weight is the same concept as the "slope"  in the traditional equation of a line.
  * ***x1*** is a [feature](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology#features) (a known input).
 
