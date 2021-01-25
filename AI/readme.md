@@ -1,4 +1,4 @@
 AI includes:
-=====>>>>>naturallanguage processing (NLP)
-=====>>>>>machine learning (ML)
-=====>>>>>deeplearning (DL), and conversational artificial intelligence.
+=====>>>>>naturallanguage processing (NLP)<br/>
+=====>>>>>machine learning (ML)<br/>
+=====>>>>>deeplearning (DL), and conversational artificial intelligence.<br/>
