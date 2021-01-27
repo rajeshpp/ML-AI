@@ -1,3 +1,4 @@
+![AI/ML/DL/DS](common_images/all_desc.jpg)
 # Algorithms 
 {Taken From: https://github.com/keon/algorithms }
 
