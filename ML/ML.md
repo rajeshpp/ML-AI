@@ -23,12 +23,12 @@ Google crash course for ML:
 Use labeled examples to train the model. In our spam detector example, the labeled examples would be individual emails that users have explicitly marked as "spam" or "not spam." <br>
 
 For example, the following table shows 5 labeled examples from a data set containing information about housing prices in California:<br>
-![Labled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Labled%20Example.PNG)
+![Labled Example](images/Labled%20Example.PNG)
 
 An **unlabeled example** contains features but not the label. That is: *unlabeled examples: <pre>{features, ?}: (x, ?)* </pre>
 
 Here are 3 unlabeled examples from the same housing dataset, which exclude *medianHouseValue*: <br>
-![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Unlabled%20Example.PNG)
+![Unlabled Example](images/Unlabled%20Example.PNG)
 
 Once we've trained our model with labeled examples, we use that model to predict the label on unlabeled examples. In the spam detector, unlabeled examples are new emails that humans haven't yet labeled.
 
@@ -52,7 +52,7 @@ A **[classification model](https://developers.google.com/machine-learning/glossa
 **[Linear regression](https://developers.google.com/machine-learning/glossary#linear_regression)** is a method for finding the straight line or hyperplane that best fits a set of points. This module explores linear regression intuitively before laying the groundwork for a machine learning approach to linear regression.
 
 **Figure 1. Chirps per Minute vs. Temperature in Celsius.**
-![Unlabled Example](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/Linear%20Regression%20Example.PNG)
+![Linear Regression](images/Linear%20Regression%20Example.PNG)
 
 True, the line doesn't pass through every dot, but the line does clearly show the relationship between chirps and temperature. Using the equation for a line, you could write down this relationship as follows:<br>
 <pre>                                              y = mx + b                     </pre>
@@ -85,7 +85,7 @@ Although this model uses only one feature, a more sophisticated model might rely
 Loss is the penalty for a bad prediction. That is, [loss](https://developers.google.com/machine-learning/glossary#loss) is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples. <br>
 * The red arrow represents loss.
 * The blue line represents predictions.
-![LossSideBySide](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/LossSideBySide.png)
+![LossSideBySide](images/LossSideBySide.png)
 **High loss in the left model; low loss in the right model.**
 
 We can create a mathematical function—a loss function—that would aggregate the individual losses in a meaningful fashion.<br>
@@ -99,7 +99,7 @@ The **[linear regression](https://developers.google.com/machine-learning/glossar
 </pre>
 
 [Mean square error (MSE)](https://developers.google.com/machine-learning/glossary#MSE) is the average squared loss per example over the whole dataset. To calculate MSE, sum up all the squared losses for individual examples and then divide by the number of examples: <br>
-![MeanSquareError](https://github.com/rajeshpp/ML-AI/blob/master/ML%20Images/MeanSquareError.PNG)
+![MeanSquareError](images/MeanSquareError.PNG)
 where:
 * (x,y) is an example in which
   * x is the set of features (for example, chirps/minute, age, gender) that the model uses to make predictions.
