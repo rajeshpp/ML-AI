@@ -1,6 +1,6 @@
 ![AI/ML/DL/DS](common_images/all_desc.jpg)
 
-![AI/ML/DL/DS](common_images/AI flow.jpg)
+![AI/ML/DL/DS](common_images/AI%20flow.jpg)
 
 
 # Algorithms 
