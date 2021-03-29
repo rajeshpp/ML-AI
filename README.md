@@ -1,4 +1,8 @@
 ![AI/ML/DL/DS](common_images/all_desc.jpg)
+
+![AI/ML/DL/DS](common_images/AI flow.jpg)
+
+
 # Algorithms 
 {Taken From: https://github.com/keon/algorithms }
 
