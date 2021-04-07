@@ -1,4 +1,4 @@
-In this, we will see:
+# Stats
 1. Arithmetic Mean
 2. Median
 3. Mode
@@ -6,3 +6,7 @@ In this, we will see:
 5. Harmonic Mean
 
 
+# Details 
+##### 1. Arithmetic Mean
+'center' of the dataset
+Ex: (1+8+3+6+2)/5 = 4
